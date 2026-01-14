@@ -1,0 +1,289 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  margin-top: -22px;
+  padding-top: 24px;
+  padding-bottom: 29px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  align-items: center;
+
+}
+
+
+.book{
+    background-color: darkgreen;
+    height: 29px;
+    border: 1px solid aquamarine;
+    color: white;
+    border-radius: 25px;
+      transform: translateX(-20px); /* -10px left, +10px right */
+}
+
+.book:hover{
+    cursor: pointer;
+}
+ .finance{
+    color: darkgreen;
+    font-size: 1.2rem;
+      transform: translateX( 23px); /* -10px left, +10px right */
+ }
+.service {
+  color: darkgreen;
+  transform: translateX(-20px); /* -10px left, +10px right */
+}
+
+
+   /* financial */
+   .financial{
+    background-color: aquamarine;
+    padding-top: 146px;
+    padding-bottom: 173px;
+    color: darkgreen;
+   }
+
+.clarity{
+    margin-left: 23px;
+    font-size: 5rem;
+}
+
+
+.trusts{
+    font-size: 1.1rem;
+    margin-top: 32px;
+    margin-left: 37px;
+}
+ .connect{
+    background-color: darkgreen;
+    border: 1px solid aquamarine;
+    color: white;
+    margin-top: 33px;
+    margin-left: 39px;
+    height: 36px;
+    border-radius: 33px;
+ }
+
+ .connect:hover{
+    cursor: pointer;
+}
+ 
+  /* success */
+
+.success {
+  text-align: center;        /* text ko horizontally center karta hai */
+  display: flex;             /* flex use kar rahe hain */
+  flex-direction: column;    /* items vertically stack hon */
+  align-items: center;       /* items horizontally center */
+  justify-content: center;   /* vertically center agar height fix ho */
+  margin-top: 66px;
+  background-color: white;
+  padding-bottom: 99px;
+}
+ .handle{
+    margin-top: 22px;
+    font-size: 3rem;
+    color: darkgreen;
+ }
+ .servi{
+    font-size: 1.4rem;
+ }
+ .individ{
+    margin-top: 20px;
+ }
+ .shedule{
+    margin-top: 22px;
+    background-color: darkgreen;
+    color: white;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 22px;
+ }
+
+ .shedule:hover{
+    cursor: pointer;
+ }
+
+   /* tax */
+ .tax {
+  text-align: center;        /* text ko horizontally center karta hai */
+  display: flex;             /* flex use kar rahe hain */
+  flex-direction: column;    /* items vertically stack hon */
+  align-items: center;       /* items horizontally center */
+  justify-content: center;   /* vertically center agar height fix ho */
+  margin-top: 66px;
+  background-color: aquamarine;
+  max-width: 533px;
+  padding-bottom: 69px;
+  padding-right: 66px;
+  margin-left: 14px;
+  padding-left: 494px;
+  border-radius: 33px;
+}
+ .text{
+    font-size: 2.8rem;
+    margin-top: 55px;
+    
+ }
+ .personal{
+    margin-top: 50px;
+    font-size: 1rem;
+ }
+ .taxxx{
+  margin-top: 77px;
+  margin-left: -197px;
+  background-color: rgb(244, 247, 244);
+  height: 35px;
+  border-radius: 12px;
+  color: rgb(26, 24, 24);
+   border: 1px solid aquamarine;
+ }
+ .depen{
+   margin-top: -35px;
+   margin-left: 88px;
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  height: 35px;
+  border-radius: 12px;
+   border: 1px solid aquamarine;
+ }
+ .trust{
+      margin-top: -37px;
+      font-size: 0.8rem;
+    margin-left: 368px;
+   background-color: rgb(245, 246, 245);
+  height: 35px;
+  border-radius: 12px;
+    color: rgb(21, 20, 20);
+   border: 1px solid aquamarine;
+ }
+    /* tax */
+ .taxee {
+  text-align: center;        /* text ko horizontally center karta hai */
+  display: flex;             /* flex use kar rahe hain */
+  flex-direction: column;    /* items vertically stack hon */
+  align-items: center;       /* items horizontally center */
+  justify-content: center;   /* vertically center agar height fix ho */
+  margin-top: 66px;
+  background-color: aquamarine;
+  max-width: 533px;
+  padding-bottom: 69px;
+  padding-right: 446px;
+  margin-left: 374px;
+  padding-left: 64px;
+  border-radius: 33px;
+}
+ .textss{
+    font-size: 2.8rem;
+    margin-top: 55px;
+    
+ }
+ .personals{
+    margin-top: 50px;
+    font-size: 1rem;
+ }
+ .taxxxx{
+  margin-top: 77px;
+  margin-left: -197px;
+  background-color: rgb(244, 247, 244);
+  height: 35px;
+  border-radius: 12px;
+  color: rgb(26, 24, 24);
+   border: 1px solid aquamarine;
+ }
+ .depenn{
+   margin-top: -35px;
+   margin-left: 88px;
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  height: 35px;
+  border-radius: 12px;
+   border: 1px solid aquamarine;
+ }
+ .trustt{
+      margin-top: -37px;
+      font-size: 0.8rem;
+    margin-left: 368px;
+   background-color: rgb(245, 246, 245);
+  height: 35px;
+  border-radius: 12px;
+    color: rgb(21, 20, 20);
+   border: 1px solid aquamarine;
+ }
+    /* tax */
+ .taxo {
+  text-align: center;        /* text ko horizontally center karta hai */
+  display: flex;             /* flex use kar rahe hain */
+  flex-direction: column;    /* items vertically stack hon */
+  align-items: center;       /* items horizontally center */
+  justify-content: center;   /* vertically center agar height fix ho */
+  margin-top: 66px;
+  background-color: aquamarine;
+  max-width: 533px;
+  padding-bottom: 69px;
+  padding-right: 66px;
+  margin-left: 14px;
+  padding-left: 494px;
+  border-radius: 33px;
+}
+ .tex{
+    font-size: 2.8rem;
+    margin-top: 55px;
+    
+ }
+ .persona{
+    margin-top: 50px;
+    font-size: 1rem;
+ }
+ .taxx{
+  margin-top: 77px;
+  margin-left: -197px;
+  background-color: rgb(244, 247, 244);
+  height: 35px;
+  border-radius: 12px;
+  color: rgb(26, 24, 24);
+   border: 1px solid aquamarine;
+ }
+ .depe{
+   margin-top: -35px;
+   margin-left: 88px;
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  height: 35px;
+  border-radius: 12px;
+   border: 1px solid aquamarine;
+ }
+ .trus{
+      margin-top: -37px;
+      font-size: 0.8rem;
+    margin-left: 368px;
+   background-color: rgb(245, 246, 245);
+  height: 35px;
+  border-radius: 12px;
+    color: rgb(21, 20, 20);
+   border: 1px solid aquamarine;
+ }
+
+
+    /* happy */
+ .kk{
+  text-align: center;        /* text ko horizontally center karta hai */
+  display: flex;             /* flex use kar rahe hain */
+  flex-direction: column;    /* items vertically stack hon */
+  align-items: center;       /* items horizontally center */
+  justify-content: center;   /* vertically center agar height fix ho */
+  margin-top: 66px;
+  background-color: white;
+ padding-bottom: 99px;
+ padding-top: 66px;
+}
+ .happy{
+    font-size: 3rem;
+    color: darkgreen;
+ }
