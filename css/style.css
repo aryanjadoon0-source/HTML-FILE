@@ -3,10 +3,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: aquamarine;
+  background-color: rgb(134, 240, 205);
   margin-top: -22px;
   padding-top: 24px;
   padding-bottom: 29px;
+}
+ .container,
+ .trusts{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
 }
 
 .content {
@@ -16,34 +22,63 @@
   align-items: center;
 
 }
+ .clarity{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+.globe {
+  height: 358px;
+  margin-top: -56px;
+  width: 358px;
+  display: block;
+  margin-left: auto;
+  margin-right: 40px;   /* value kam/zyada kar sakte ho */
+}
+
+
 
 
 .book{
     background-color: darkgreen;
-    height: 29px;
+    height: 39px;
+    width: 167px;
     border: 1px solid aquamarine;
     color: white;
-    border-radius: 25px;
+    border-radius: 35px;
       transform: translateX(-20px); /* -10px left, +10px right */
 }
 
 .book:hover{
     cursor: pointer;
+    background-color: black;
 }
  .finance{
     color: darkgreen;
     font-size: 1.2rem;
       transform: translateX( 23px); /* -10px left, +10px right */
+      
  }
 .service {
   color: darkgreen;
   transform: translateX(-20px); /* -10px left, +10px right */
+
+}
+.service:hover{
+    cursor: pointer;;
 }
 
 
+
+ .success{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
    /* financial */
    .financial{
-    background-color: aquamarine;
+    background-color: rgb(134, 240, 205);
     padding-top: 146px;
     padding-bottom: 173px;
     color: darkgreen;
@@ -52,6 +87,7 @@
 .clarity{
     margin-left: 23px;
     font-size: 5rem;
+    margin-top: -285px;
 }
 
 
@@ -66,12 +102,15 @@
     color: white;
     margin-top: 33px;
     margin-left: 39px;
-    height: 36px;
+    height: 43px;
+    width: 179px;
     border-radius: 33px;
+
  }
 
  .connect:hover{
     cursor: pointer;
+    background-color: black;
 }
  
   /* success */
@@ -102,42 +141,51 @@
     background-color: darkgreen;
     color: white;
     height: 36px;
+    width: 114px;
     border: 1px solid white;
     border-radius: 22px;
  }
 
  .shedule:hover{
     cursor: pointer;
+    background-color: black;
  }
 
    /* tax */
  .tax {
-  text-align: center;        /* text ko horizontally center karta hai */
+  text-align: right;        /* text ko horizontally center karta hai */
   display: flex;             /* flex use kar rahe hain */
   flex-direction: column;    /* items vertically stack hon */
-  align-items: center;       /* items horizontally center */
-  justify-content: center;   /* vertically center agar height fix ho */
+  justify-content: right;   /* vertically center agar height fix ho */
   margin-top: 66px;
-  background-color: aquamarine;
-  max-width: 533px;
-  padding-bottom: 69px;
+  background-color: rgb(182, 244, 223);
+  max-width: 4673px;
+  padding-bottom: 259px;
   padding-right: 66px;
-  margin-left: 14px;
-  padding-left: 494px;
+  color: rgb(21, 53, 21);
+  margin-left: 4px;
   border-radius: 33px;
 }
  .text{
     font-size: 2.8rem;
-    margin-top: 55px;
-    
+    margin-top: -395px;
+    display: block;
+    margin-left: auto;
+ 
  }
  .personal{
     margin-top: 50px;
     font-size: 1rem;
+   
  }
+ .lll {
+  display: flex;
+  justify-content: flex-end; /* right side align */
+  gap: 10px;                 /* buttons ke beech space */
+  margin-top: -190px;         /* negative = upar, positive = neeche */
+  margin-right: 90px;        /* right se thoda left shift */
+}
  .taxxx{
-  margin-top: 77px;
-  margin-left: -197px;
   background-color: rgb(244, 247, 244);
   height: 35px;
   border-radius: 12px;
@@ -145,8 +193,6 @@
    border: 1px solid aquamarine;
  }
  .depen{
-   margin-top: -35px;
-   margin-left: 88px;
    background-color: rgb(245, 247, 245);
    color: rgb(28, 25, 25);
   height: 35px;
@@ -154,43 +200,72 @@
    border: 1px solid aquamarine;
  }
  .trust{
-      margin-top: -37px;
       font-size: 0.8rem;
-    margin-left: 368px;
    background-color: rgb(245, 246, 245);
   height: 35px;
   border-radius: 12px;
     color: rgb(21, 20, 20);
    border: 1px solid aquamarine;
  }
+.taxxx:hover{
+   cursor: pointer;
+   background-color: aqua;
+}
+
+  .depen:hover{
+      cursor: pointer;
+   background-color: aqua;
+  }
+  .trust:hover{
+   cursor: pointer;
+   background-color: aqua;
+  }
+
+.call {
+  display: block;
+  height: 522px;
+  width: 522px;
+  margin-left: 88px;
+  margin-top: 6px;
+}
+ .tax{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
     /* tax */
  .taxee {
-  text-align: center;        /* text ko horizontally center karta hai */
+  text-align: left;        /* text ko horizontally center karta hai */
   display: flex;             /* flex use kar rahe hain */
-  flex-direction: column;    /* items vertically stack hon */
-  align-items: center;       /* items horizontally center */
-  justify-content: center;   /* vertically center agar height fix ho */
-  margin-top: 66px;
-  background-color: aquamarine;
-  max-width: 533px;
-  padding-bottom: 69px;
-  padding-right: 446px;
-  margin-left: 374px;
+  flex-direction: column;    /* items vertically stack hon */      /* items horizontally center */
+  justify-content: left;   /* vertically center agar height fix ho */
+  margin-top: 86px;
+  background-color: rgb(192, 245, 227);
+  max-width: 4673px;
+  padding-bottom: 169px;
+ color: rgb(21, 53, 21);
+  margin-left: 5px;
+  margin-top: 213px;
   padding-left: 64px;
   border-radius: 33px;
 }
  .textss{
     font-size: 2.8rem;
-    margin-top: 55px;
+    margin-top: -275px;
     
  }
  .personals{
     margin-top: 50px;
     font-size: 1rem;
  }
+ .kkk {
+  display: flex;
+  gap: 10px;                 /* buttons ke beech space */
+  margin-top: -90px;         /* negative = upar, positive = neeche */
+  margin-left: 80px;        /* right se thoda left shift */
+}
  .taxxxx{
-  margin-top: 77px;
-  margin-left: -197px;
   background-color: rgb(244, 247, 244);
   height: 35px;
   border-radius: 12px;
@@ -198,8 +273,6 @@
    border: 1px solid aquamarine;
  }
  .depenn{
-   margin-top: -35px;
-   margin-left: 88px;
    background-color: rgb(245, 247, 245);
    color: rgb(28, 25, 25);
   height: 35px;
@@ -207,62 +280,7 @@
    border: 1px solid aquamarine;
  }
  .trustt{
-      margin-top: -37px;
       font-size: 0.8rem;
-    margin-left: 368px;
-   background-color: rgb(245, 246, 245);
-  height: 35px;
-  border-radius: 12px;
-    color: rgb(21, 20, 20);
-   border: 1px solid aquamarine;
- }
-    /* tax */
- .taxo {
-  text-align: center;        /* text ko horizontally center karta hai */
-  display: flex;             /* flex use kar rahe hain */
-  flex-direction: column;    /* items vertically stack hon */
-  align-items: center;       /* items horizontally center */
-  justify-content: center;   /* vertically center agar height fix ho */
-  margin-top: 66px;
-  background-color: aquamarine;
-  max-width: 533px;
-  padding-bottom: 69px;
-  padding-right: 66px;
-  margin-left: 14px;
-  padding-left: 494px;
-  border-radius: 33px;
-}
- .tex{
-    font-size: 2.8rem;
-    margin-top: 55px;
-    
- }
- .persona{
-    margin-top: 50px;
-    font-size: 1rem;
- }
- .taxx{
-  margin-top: 77px;
-  margin-left: -197px;
-  background-color: rgb(244, 247, 244);
-  height: 35px;
-  border-radius: 12px;
-  color: rgb(26, 24, 24);
-   border: 1px solid aquamarine;
- }
- .depe{
-   margin-top: -35px;
-   margin-left: 88px;
-   background-color: rgb(245, 247, 245);
-   color: rgb(28, 25, 25);
-  height: 35px;
-  border-radius: 12px;
-   border: 1px solid aquamarine;
- }
- .trus{
-      margin-top: -37px;
-      font-size: 0.8rem;
-    margin-left: 368px;
    background-color: rgb(245, 246, 245);
   height: 35px;
   border-radius: 12px;
@@ -270,6 +288,118 @@
    border: 1px solid aquamarine;
  }
 
+.taxxxx:hover{
+   cursor: pointer;
+   background-color: aqua;
+}
+
+  .depenn:hover{
+      cursor: pointer;
+   background-color: aqua;
+  }
+  .trustt:hover{
+   cursor: pointer;
+   background-color: aqua;
+  }
+  .phones {
+  height: 388px;
+  margin-top: 56px;
+  width: 518px;
+  display: block;
+  margin-left: auto;
+  margin-right: 110px;   /* value kam/zyada kar sakte ho */
+}
+ .taxee{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+    
+ .taxo {
+        text-align: right;        /* text ko horizontally center karta hai */
+  display: flex;             /* flex use kar rahe hain */
+  flex-direction: column;    /* items vertically stack hon */
+       /* items horizontally center */
+  justify-content: right;   /* vertically center agar height fix ho */
+  margin-top: 66px;
+  background-color: rgb(197, 245, 229);
+  max-width: 4673px;
+  padding-bottom: 179px;
+  padding-right: 66px;
+  margin-left: 5px;
+  color: rgb(21, 53, 21);
+  margin-top: 108px;
+  padding-left: 60px;
+ border-radius: 33px;
+}
+ .tex{
+    font-size: 2.8rem;
+    margin-top: -325px;
+    
+ }
+ .persona{
+    margin-top: 50px;
+    font-size: 1rem;
+ }
+.mmm {
+  display: flex;
+  justify-content: flex-end; /* right side align */
+  gap: 10px;                 /* buttons ke beech space */
+  margin-top: -90px;         /* negative = upar, positive = neeche */
+  margin-right: 90px;        /* right se thoda left shift */
+}
+
+
+
+ .taxx{
+  background-color: rgb(244, 247, 244);
+  height: 35px;
+  border-radius: 12px;
+  color: rgb(26, 24, 24);
+   border: 1px solid aquamarine;
+ }
+ .depe{
+
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  height: 35px;
+  border-radius: 12px;
+   border: 1px solid aquamarine;
+ }
+ .trus{
+      font-size: 0.8rem;
+   background-color: rgb(245, 246, 245);
+  height: 35px;
+  border-radius: 12px;
+    color: rgb(21, 20, 20);
+   border: 1px solid aquamarine;
+ }
+.taxx:hover{
+   cursor: pointer;
+   background-color: aqua;
+}
+
+  .depe:hover{
+      cursor: pointer;
+   background-color: aqua;
+  }
+  .trus:hover{
+   cursor: pointer;
+   background-color: aqua;
+  }
+
+ .doll{
+   margin-left: 27px;
+   margin-top: 88px;
+   height: 333px;
+   width: 333px;
+ }
+
+ .taxo{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
 
     /* happy */
  .kk{
@@ -284,6 +414,517 @@
  padding-top: 66px;
 }
  .happy{
-    font-size: 3rem;
-    color: darkgreen;
+    font-size: 3.5rem;
+    color: rgb(14, 35, 14);
  }
+  .happy{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+  /* conn */
+
+  .manager{
+   text-align: center;
+   font-size: 1.5rem;
+   font-style: initial;
+   margin-left: 212px;
+  }
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -180px;
+}
+ .manager{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+/* vertical line */
+.v-line {
+  width: 1px;
+  height: 300px;
+  background-color: black;
+  margin-left: -343px;
+  margin-top: 77px;
+}
+
+/* text */
+.graphic{
+   font-size: 1.2rem;
+   margin-left: -227px;
+     margin-top: -77px;
+}
+.canada {
+  font-size: 1.0rem;
+  margin-left: -154px;
+}
+ .graphic,
+ .canada{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+/* horizontal line */
+.line {
+  width: 12%;
+  height: 1px;
+  background-color: black;
+  margin-left: -113px;
+  margin-top: -154px;
+}
+ .graphic,
+ .canada,
+ .line:hover{
+   cursor: pointer;
+ }
+
+
+
+/* top section */
+ .wrapper{
+   margin-top: 215px;
+ }
+ .graphics{
+   margin-left: -178px;
+   font-size: 1.7rem;
+   margin-top: -44px;
+ }
+ .canadas{
+   margin-left: -178px;
+   margin-top: 20px;
+ }
+
+
+.wrapper {
+  margin-top: 50px; /* wrapper spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* top section: line + text */
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* spacing between line and text */
+}
+
+/* horizontal line */
+.lines {
+  width: 200px;           /* line ka length */
+  height: 1px;            /* line thickness */
+  background-color: rgb(25, 24, 24);
+  margin-left: -568px;
+  margin-top: -172px;
+}
+
+/* text row */
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* text elements */
+.graphics {
+  font-size: 1.7rem;
+  margin-top: 397px;
+  margin-left: -678px;
+}
+
+.canadas {
+  font-size: 1rem;
+  margin-left: -668px;
+  margin-top: 2px;
+}
+
+ .graphics,
+ .canadas,
+ .lines:hover{
+   cursor: pointer;
+ }
+
+
+ .grapphics,
+ .canadas{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+
+
+.image {
+  width: 100%;
+  max-width: 2300px;
+  margin: 157px auto 0 auto; /* top margin + center horizontally */
+  display: block;
+}
+
+
+.type {
+  width: 100%;       /* parent ke respect me stretch */
+  height: auto;
+}
+
+
+
+
+ .noble{
+   font-size: 3.8rem;
+   margin-top: 88px;
+   margin-left: 77px;
+   color: rgb(6, 150, 6);
+ }
+
+  .smart{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+
+ .confidence {
+  display: flex;
+  justify-content: flex-end; /* right align */
+  margin-right: 40px;        /* thoda left shift from right edge */
+  gap: 10px;                 /* agar multiple elements ho to space */
+  margin-top: -139px;
+  font-size: 1.4rem;
+  color: rgb(5, 122, 5);
+}
+.big-line {
+  width: 130%;               /* line ka length, parent ke respect me */
+  max-width: 1490px;        /* optional: max width limit */
+  height: 1px;              /* line ki motai */
+  background-color: green;  /* line ka color */
+  margin: 30px auto;        /* upar/neeche spacing + center align */
+  display: block;
+  margin-top: 149px;
+}
+
+  .folder{
+   margin-top: 22px;
+   margin-left: 66px;
+  }
+   .folder{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+   .lancer{
+      font-size: 2rem;
+      color: darkgreen;
+      margin-top: 33px;
+   }
+   
+   .simple{
+      margin-top: 25px;
+      color: darkgreen;
+   }
+
+   .stays{
+      margin-top: 33px;
+      color: darkgreen;
+      font-size: 1.1rem;
+   }
+
+
+   .big-lines {
+  width: 130%;               /* line ka length, parent ke respect me */
+  max-width: 1490px;        /* optional: max width limit */
+  height: 1px;              /* line ki motai */
+  background-color: green;  /* line ka color */
+  margin: 30px auto;        /* upar/neeche spacing + center align */
+  display: block;
+  margin-top: 59px;
+  margin-left: -22px;
+}
+
+
+  .folders{
+   margin-top: 22px;
+   margin-left: 66px;
+  }
+   .folders{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+   .lancers{
+      font-size: 2rem;
+      color: darkgreen;
+      margin-top: 33px;
+   }
+   
+   .simples{
+      margin-top: 25px;
+      color: darkgreen;
+   }
+
+   .stayss{
+      margin-top: 33px;
+      color: darkgreen;
+      font-size: 1.1rem;
+   }
+
+
+   .big-liness {
+  width: 130%;               /* line ka length, parent ke respect me */
+  max-width: 1490px;        /* optional: max width limit */
+  height: 1px;              /* line ki motai */
+  background-color:green;  /* line ka color */
+  margin: 30px auto;        /* upar/neeche spacing + center align */
+  display: block;
+  margin-top: 59px;
+  margin-left: -22px;
+}
+
+
+
+
+  .folderss{
+   margin-top: 22px;
+   margin-left: 66px;
+  }
+   .folderss{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+   .lancerss{
+      font-size: 2rem;
+      color: darkgreen;
+      margin-top: 33px;
+   }
+   
+   .simpless{
+      margin-top: 25px;
+      color: darkgreen;
+   }
+
+   .staysss{
+      margin-top: 33px;
+      color: darkgreen;
+      font-size: 1.1rem;
+   }
+
+
+
+
+
+   .big-linesss {
+  width: 130%;               /* line ka length, parent ke respect me */
+  max-width: 1490px;        /* optional: max width limit */
+  height: 1px;              /* line ki motai */
+  background-color: green;  /* line ka color */
+  margin: 30px auto;        /* upar/neeche spacing + center align */
+  display: block;
+  margin-top: 59px;
+  margin-left: -22px;
+}
+
+.centered{
+  background-color: rgb(19, 46, 19);
+  max-width: 628px;
+  width: 100%;
+  padding: 30px 0;
+  height: 373px;
+  box-sizing: border-box;
+  border-radius: 22px;
+  box-shadow: inset;
+  margin: 134px 123px auto;   /* 🔴 center + top space */
+  
+}
+
+
+ .custum{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+
+.custum{
+   font-size: 2rem;
+   margin-left: 86px;
+   margin-top: 26px;
+   color: white;
+
+}
+.vvv{
+   margin-left: 80px;
+   margin-top: 36px;
+   font-size: 1.2rem;
+   color: white;
+}
+ .vvv{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+ .learns{
+   margin-top: 44px;
+   margin-left: 84px;
+   background-color: white;
+   color: black;
+   height: 32px;
+   border-radius: 22px;
+   border: 1px solid darkgreen;
+ }
+.learns:hover{
+   cursor: pointer;
+   background-color: aqua;
+}
+
+
+.imad{
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+}
+
+.imad img{
+  margin-top: -380px;        /* thoda upar */
+  margin-left: 698px;
+}
+
+
+
+.connectsss{
+   background-color: whitesmoke;
+   padding-top: 7px;
+   padding-bottom: 188px;
+   margin-top: 77px;
+}
+
+ .connectss{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+.connectss{
+   font-size: 4rem;
+   font-style: normal;
+   margin-left: 147px;
+   margin-top: 264px;
+}
+.expert{
+  background-color: darkgreen;
+  color: white;
+  height: 58px;
+  width: 199px;
+  border-radius: 32px;
+  border: 1px solid rgb(232, 228, 228);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 77px auto 0; /* top | left-right | bottom */
+}
+
+.expert:hover{
+   cursor: pointer;
+   background-color: black;
+}
+
+
+ .expert:hover{
+   cursor: pointer;
+ }
+
+
+
+
+  .nobled{
+   background-color: rgb(16, 50, 16);
+   padding-top: 2px;
+   height: 346px;
+  }
+
+ .div {
+   font-size: 1.7rem;
+   margin-top: 28px;
+   margin-left: 32px;
+   color: white;
+ }
+
+ .servi{
+   display: flex;
+   justify-content: center;
+   margin-top: -28px;
+   color: white;
+ }
+  .servi:hover{
+   cursor: pointer;
+  }
+
+
+ .noble,
+ .div,
+ .servi{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
+
+
+.and  {
+  margin-left: auto;
+  display: block;
+  margin-top: -44px;
+  margin-right: 33px;
+  height: 34px;
+  width: 166px;
+  background-color: white;
+  color: black;
+  border-radius: 22px;
+  box-shadow: none;
+  border: 1px solid darkgreen;
+}
+
+
+ .and:hover{
+   cursor: pointer;
+   background-color: aqua;
+}
+
+
+ .claritys{
+   color: white;
+   margin-top: 218px;
+   
+ }
+
+ .guide{
+   color: rgb(241, 234, 234);
+ }
+
+  .all{
+   display: flex;
+   justify-content: center;
+   color: aliceblue;
+   margin-top: -22px;
+  }
+  .claritys,
+  .all,
+  .guide{
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+    letter-spacing: 0.01em;
+}
