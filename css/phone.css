@@ -762,7 +762,7 @@
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1324px) {
   .noble {
     font-size: 30px;
   }
@@ -774,8 +774,9 @@
   }
 
   .big-line {
-    width: 90px;
-
+    width: 690px;
+    margin-left: 77px;
+   
   }
 }
 
