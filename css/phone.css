@@ -1,0 +1,835 @@
+
+.financial {
+  position: relative;
+  text-align: center;
+  padding-top: 50px; /* image aur top ke beech gap */
+}
+
+/* Image styling */
+.globe {
+  width: 358px;
+  height: 358px;
+  display: block;
+  margin: 0 auto; /* center karne ke liye */
+  position: relative;
+  top: 0; /* default position */
+}
+
+/* Text styling */
+.clarity {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px; /* image ke neeche thoda gap */
+}
+
+.trusts {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.connect {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Mobile / small screen adjustments */
+@media (max-width: 768px) {
+  .globe {
+    width: 290px;  /* image chhota */
+    top: -40px;   /* image upar move */
+  }
+
+  .clarity {
+    font-size: 24px;
+    margin-top: 40px; /* thoda aur neeche gap text ke liye */
+  }
+
+  .trusts {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .connect {
+    margin-top: 20px;
+    height: 57px;
+  }
+}
+
+
+
+
+
+/* Parent container */
+.tax {
+  text-align: center;
+  position: relative;
+  padding-top: 50px; /* image aur top ke beech gap */
+}
+
+/* Image */
+.call {
+  width: 300px;  /* adjust size */
+  display: block;
+  margin: 0 auto; /* center */
+  position: relative;
+  top: 0; /* default */
+}
+
+/* Text under image */
+.text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px; /* gap image ke neeche */
+}
+
+.personal {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Buttons container */
+.lll {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; /* mobile friendly */
+}
+
+.taxxx, .depen, .trust {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  border-radius: 5px;
+}
+   /* responsive */
+   /* Tablet + Mobile Layout */
+@media (max-width: 1024px) {
+  .tax {
+    position: relative;
+    text-align: center;
+    padding-top: 40px; /* image ke upar gap */
+  }
+
+  .call {
+    width: 250px;      /* tablet me thoda chhota */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -30px;        /* image upar shift */
+  }
+
+  .text {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .personal {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .lll {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    top: -230px;       /* buttons image ke upar thoda */
+  }
+
+  .taxxx, .depen, .trust {
+    padding: 10px 18px;
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+   @media (max-width: 768px) {
+  .call {
+    width: 200px;
+    height: auto;
+    top: -40px;        /* image upar move */
+    margin: 0 auto;
+    display: block;
+    position: relative;
+  }
+
+  .text {
+    font-size: 22px;
+    margin-top: 20px;  /* image ke neeche */
+    margin-left: -4px;
+    text-align: center;
+  }
+
+  .personal {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* Buttons ko neeche dikhaane ke liye negative margin hatayein */
+.lll {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: -180px; /* jitna upar chahiye */
+  left: 33px;
+}
+
+.taxxx, .depen, .trust {
+  padding: 8px 15px;
+  font-size: 13px;
+  margin: 0; /* margin hatao, position se control karenge */
+}
+  
+
+}
+/* Laptop / Desktop Layout */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .tax {
+    position: relative;
+    text-align: center;
+    padding-top: 60px; /* image ke upar thoda gap */
+  }
+
+  .call {
+    width: 300px;      /* laptop me image bada */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -40px;        /* image thoda upar */
+  }
+
+  .text {
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .personal {
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .lll {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    top: -100px;       /* buttons image ke upar thoda */
+  }
+
+  .taxxx, .depen, .trust {
+    padding: 12px 20px;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+
+
+
+
+
+/* Parent container */
+.taxee {
+  text-align: center;
+  position: relative;
+  margin-top: -29px;
+  padding-top: 50px; /* image aur top ke beech gap */
+}
+
+/* Image */
+.phones {
+  width: 300px;  /* adjust size */
+  display: block;
+  margin: 0 auto; /* center */
+  position: relative;
+  top: 0; /* default */
+}
+
+/* Text under image */
+.textss {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px; /* gap image ke neeche */
+}
+
+.personals {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Buttons container */
+.kkk {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; /* mobile friendly */
+}
+
+.taxxxx, .depenn, .trustt {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  border-radius: 5px;
+}
+   /* responsive */
+   /* Tablet + Mobile Layout */
+@media (max-width: 1024px) {
+  .taxee {
+    position: relative;
+    text-align: center;
+    padding-top: 40px; /* image ke upar gap */
+  }
+
+  .phones {
+    width: 250px;      /* tablet me thoda chhota */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -30px;        /* image upar shift */
+  }
+
+  .textss {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .personals {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .kkk {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    top: -130px;       /* buttons image ke upar thoda */
+  }
+
+  .taxxxx, .depenn, .trustt {
+    padding: 10px 18px;
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+   @media (max-width: 768px) {
+  .phones {
+    width: 200px;
+    height: auto;
+    top: -20px;        /* image upar move */
+    margin: 0  auto;
+    display: block;
+    position: relative;
+  }
+
+  .textss {
+    font-size: 22px;
+    margin-top: 20px;  /* image ke neeche */
+    margin-left: -44px;
+    text-align: center;
+  }
+
+  .personals {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -54px;
+  }
+
+  /* Buttons ko neeche dikhaane ke liye negative margin hatayein */
+.kkk {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: -150px; /* jitna upar chahiye */
+  left: -22px;
+}
+
+.taxxxx, .depenn, .trustt {
+  padding: 8px 15px;
+  font-size: 13px;
+  margin: 0; /* margin hatao, position se control karenge */
+}
+  
+
+}
+
+
+
+/* Laptop / Desktop Layout */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .tax {
+    position: relative;
+    text-align: center;
+    padding-top: 60px; /* image ke upar thoda gap */
+  }
+
+  .call {
+    width: 300px;      /* laptop me image bada */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -40px;        /* image thoda upar */
+  }
+
+  .text {
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .personal {
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .kkk {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    top: -100px;       /* buttons image ke upar thoda */
+  }
+
+  .taxxxx, .depenn, .trustt {
+    padding: 12px 20px;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+
+
+/* Parent container */
+.taxo {
+  text-align: center;
+  position: relative;
+  margin-top: -29px;
+  padding-top: 50px; /* image aur top ke beech gap */
+}
+
+/* Image */
+.doll {
+  width: 300px;  /* adjust size */
+  display: block;
+  margin: 0 auto; /* center */
+  position: relative;
+  top: 0; /* default */
+}
+
+/* Text under image */
+.tex {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px; /* gap image ke neeche */
+}
+
+.persona {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Buttons container */
+.mmm {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; /* mobile friendly */
+}
+
+.taxx, .depe, .trus {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+   background-color: rgb(245, 247, 245);
+   color: rgb(28, 25, 25);
+  border-radius: 5px;
+}
+   /* responsive */
+   /* Tablet + Mobile Layout */
+@media (max-width: 1024px) {
+  .taxo {
+    position: relative;
+    text-align: center;
+    padding-top: 40px; /* image ke upar gap */
+  }
+
+  .doll {
+    width: 250px;      /* tablet me thoda chhota */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -30px;        /* image upar shift */
+  }
+
+  .tex {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .persona {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .mmm {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    top: -130px;       /* buttons image ke upar thoda */
+    left: 33px;
+  }
+
+  .taxx, .depe, .trus {
+    padding: 10px 18px;
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+   @media (max-width: 768px) {
+  .doll {
+    width: 200px;
+    height: auto;
+    top: -20px;        /* image upar move */
+    margin: 0  auto;
+    display: block;
+    position: relative;
+  }
+
+  .tex {
+    font-size: 22px;
+    margin-top: 20px;  /* image ke neeche */
+    margin-left: -44px;
+    text-align: center;
+  }
+
+  .persona {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -44px;
+  }
+
+  /* Buttons ko neeche dikhaane ke liye negative margin hatayein */
+.mmm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: -150px; /* jitna upar chahiye */
+  left: 42px;
+}
+
+.taxx, .depe, .trus {
+  padding: 8px 15px;
+  font-size: 13px;
+  margin: 0; /* margin hatao, position se control karenge */
+}
+  
+
+}
+
+
+
+/* Laptop / Desktop Layout */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .tax {
+    position: relative;
+    text-align: center;
+    padding-top: 60px; /* image ke upar thoda gap */
+  }
+
+  .call {
+    width: 300px;      /* laptop me image bada */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -40px;        /* image thoda upar */
+  }
+
+  .text {
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .personal {
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .mmm {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    top: -100px;       /* buttons image ke upar thoda */
+  }
+
+  .taxx, .depe, .trus {
+    padding: 12px 20px;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+
+
+
+/* Section Heading */
+.kk {
+  text-align: center;
+  margin-bottom: 30px; /* heading ke neeche gap */
+}
+
+.happy {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Review Container */
+.mm {
+  text-align: center;
+  max-width: 800px;   /* content width limit */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Review Text */
+.manager {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin-left: 188px;
+  
+}
+
+
+
+/* Tablet Layout */
+@media (max-width: 1024px) {
+  /* Heading */
+  .kk {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .happy {
+    font-size: 28px; /* thoda chhota tablet me */
+  }
+
+  /* Review container */
+  .mm {
+    max-width: 600px; /* smaller width on tablet */
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: -99px;
+  }
+
+  /* Review text */
+  .manager {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto -166px auto; /* center text with gap below */
+    text-align: center;
+  }
+  }
+
+/* Laptop / Desktop Layout */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Heading */
+  .kk {
+    text-align: center;
+    margin-bottom: 40px; /* gap heading ke neeche */
+  }
+
+  .happy {
+    font-size: 32px; /* thoda bada laptop ke liye */
+    font-weight: bold;
+  }
+
+  /* Review container */
+  .mm {
+    max-width: 800px; /* wider for laptop */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: -97px;
+  }
+
+  /* Review text */
+  .manager {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto 20px auto; /* center text with gap below */
+    text-align: center;
+  }
+  }
+
+
+
+  .smart {
+  text-align: center;
+  padding: 50px 20px; /* overall spacing */
+}
+
+.noble {
+  font-size: 36px;       /* heading size */
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;   /* space between heading and text */
+}
+
+.confidence {
+  font-size: 18px;        /* paragraph size */
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;       /* wrap text on larger screens */
+  margin: 0 auto;         /* center the paragraph */
+}
+
+.big-line {
+  width: 80px;
+  height: 3px;
+  background-color: #000;
+  margin: 30px auto 0 auto; /* centered below text */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .noble {
+    font-size: 30px;
+  }
+
+  .confidence {
+    font-size: 16px;
+    max-width: 600px;  /* smaller width for tablet */
+    margin-left: 64px;
+  }
+
+  .big-line {
+    width: 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .noble {
+    font-size: 24px;
+  }
+
+  .confidence {
+    font-size: 14px;
+    max-width: 90%;    /* almost full width */
+  }
+
+  .big-line {
+    width: 224px;
+    margin-left: 57px;
+  }
+}
+
+
+
+/* Container for row (default for larger screens) */
+.llll {
+  display: flex;
+  justify-content: center; /* center all boxes horizontally */
+  gap: 30px;               /* space between boxes */
+  margin-top: 25px;
+  flex-wrap: wrap;         /* allow wrapping on smaller screens */
+
+}
+
+/* Boxes stay same width */
+.centered {
+  position: relative;
+  width: 270px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  flex-shrink: 0; /* prevent shrinking too much */
+}
+ .imad {
+  position: relative;
+  width: 270px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  flex-shrink: 0; /* prevent shrinking too much */
+}
+.learns{
+    margin-top: 7px;
+}
+
+/* Responsive: on screens smaller than 768px, stack vertically */
+@media screen and (max-width: 768px) {
+  .llll {
+    align-items: center; /* center boxes in column */
+    gap: 20px;
+  }
+  }
+  .centered {
+    width: 90%; /* make boxes nearly full width on mobile */
+  }
+
+
+
+   .connectss {
+    margin-left: 1px;
+   }
+   .servi{
+    margin-top: 17px;
+    margin-left: -188px;
+   }
+   .and{
+    margin-top: 12px;
+   }
+
+

@@ -1,4 +1,11 @@
 
+
+   .body{
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
 .container {
   display: flex;
   align-items: center;
@@ -429,7 +436,7 @@
    text-align: center;
    font-size: 1.5rem;
    font-style: initial;
-   margin-left: 212px;
+   margin-left: 52px;
   }
 
 .section {
@@ -602,11 +609,11 @@
   color: rgb(5, 122, 5);
 }
 .big-line {
-  width: 130%;               /* line ka length, parent ke respect me */
-  max-width: 1490px;        /* optional: max width limit */
+  width: 100%;               /* line ka length, parent ke respect me */
+  max-width: 950px;        /* optional: max width limit */
   height: 1px;              /* line ki motai */
   background-color: green;  /* line ka color */
-  margin: 30px auto;        /* upar/neeche spacing + center align */
+  margin: 30px 44px auto;        /* upar/neeche spacing + center align */
   display: block;
   margin-top: 149px;
 }
@@ -640,8 +647,8 @@
 
 
    .big-lines {
-  width: 130%;               /* line ka length, parent ke respect me */
-  max-width: 1490px;        /* optional: max width limit */
+  width: 100%;               /* line ka length, parent ke respect me */
+  max-width: 950px;        /* optional: max width limit */
   height: 1px;              /* line ki motai */
   background-color: green;  /* line ka color */
   margin: 30px auto;        /* upar/neeche spacing + center align */
@@ -680,8 +687,8 @@
 
 
    .big-liness {
-  width: 130%;               /* line ka length, parent ke respect me */
-  max-width: 1490px;        /* optional: max width limit */
+  width: 100%;               /* line ka length, parent ke respect me */
+  max-width: 950px;        /* optional: max width limit */
   height: 1px;              /* line ki motai */
   background-color:green;  /* line ka color */
   margin: 30px auto;        /* upar/neeche spacing + center align */
@@ -725,8 +732,8 @@
 
 
    .big-linesss {
-  width: 130%;               /* line ka length, parent ke respect me */
-  max-width: 1490px;        /* optional: max width limit */
+  width: 100%;               /* line ka length, parent ke respect me */
+  max-width: 950px;        /* optional: max width limit */
   height: 1px;              /* line ki motai */
   background-color: green;  /* line ka color */
   margin: 30px auto;        /* upar/neeche spacing + center align */
@@ -740,11 +747,11 @@
   max-width: 628px;
   width: 100%;
   padding: 30px 0;
-  height: 373px;
+  height: 423px;
   box-sizing: border-box;
   border-radius: 22px;
-  box-shadow: inset;
-  margin: 134px 123px auto;   /* 🔴 center + top space */
+  margin: 134px 443px auto;   /* 🔴 center + top space */
+  
   
 }
 
@@ -776,7 +783,7 @@
 }
 
  .learns{
-   margin-top: 44px;
+   margin-top: 20px;
    margin-left: 84px;
    background-color: white;
    color: black;
@@ -796,10 +803,10 @@
   align-items: center;      /* vertical center */
 }
 
-.imad img{
-  margin-top: -380px;        /* thoda upar */
-  margin-left: 698px;
-}
+ .imad img{
+   margin-left: 744px;
+   margin-top: -415px;
+ }
 
 
 
@@ -928,3 +935,9 @@
   font-weight: 100;
     letter-spacing: 0.01em;
 }
+ .claritys{
+  margin-bottom: -89px;
+ }
+ .guide{
+margin-bottom: -89px;
+ }
