@@ -5,10 +5,11 @@
   padding-top: 50px; /* image aur top ke beech gap */
 }
 
+
 /* Image styling */
 .globe {
   width: 358px;
-  height: 358px;
+  height: auto;
   display: block;
   margin: 0 auto; /* center karne ke liye */
   position: relative;
@@ -38,9 +39,21 @@
 /* Mobile / small screen adjustments */
 @media (max-width: 768px) {
   .globe {
-    width: 290px;  /* image chhota */
-    top: -40px;   /* image upar move */
+    width: 310px;  /* image chhota */
+    top: -30px;   /* image upar move */
   }
+   .finance{
+   font-size: 0.7rem;
+   margin-left: -14px;
+ }
+ .service{
+  font-size: 0.8rem;
+  margin-right: -14px;
+ }
+ .book{
+  font-size: 0.8rem;
+  width: 111px;
+ }
 
   .clarity {
     font-size: 24px;
@@ -55,6 +68,9 @@
   .connect {
     margin-top: 20px;
     height: 57px;
+  }
+  .success{
+   margin-top: -37px;
   }
 }
 
@@ -117,6 +133,7 @@
     position: relative;
     text-align: center;
     padding-top: 40px; /* image ke upar gap */
+    margin-top: -22px;
   }
 
   .call {
@@ -158,10 +175,10 @@
 
    @media (max-width: 768px) {
   .call {
-    width: 200px;
+    width: 300px;
     height: auto;
     top: -40px;        /* image upar move */
-    margin: 0 auto;
+    margin: 0  auto;
     display: block;
     position: relative;
   }
@@ -169,7 +186,7 @@
   .text {
     font-size: 22px;
     margin-top: 20px;  /* image ke neeche */
-    margin-left: -4px;
+    margin-left: 22px;
     text-align: center;
   }
 
@@ -177,6 +194,7 @@
     font-size: 14px;
     margin-top: 10px;
     text-align: center;
+    margin-left: 32px;
   }
 
   /* Buttons ko neeche dikhaane ke liye negative margin hatayein */
@@ -354,7 +372,7 @@
   .textss {
     font-size: 22px;
     margin-top: 20px;  /* image ke neeche */
-    margin-left: -44px;
+    margin-left: -34px;
     text-align: center;
   }
 
@@ -362,7 +380,7 @@
     font-size: 14px;
     margin-top: 10px;
     text-align: center;
-    margin-left: -54px;
+    margin-left: -39px;
   }
 
   /* Buttons ko neeche dikhaane ke liye negative margin hatayein */
@@ -541,7 +559,7 @@
   .tex {
     font-size: 22px;
     margin-top: 20px;  /* image ke neeche */
-    margin-left: -44px;
+    margin-left: -14px;
     text-align: center;
   }
 
@@ -549,7 +567,7 @@
     font-size: 14px;
     margin-top: 10px;
     text-align: center;
-    margin-left: -44px;
+    margin-left: -14px;
   }
 
   /* Buttons ko neeche dikhaane ke liye negative margin hatayein */
@@ -657,6 +675,7 @@
   .kk {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: -77px;
   }
 
   .happy {
@@ -717,6 +736,7 @@
   .smart {
   text-align: center;
   padding: 50px 20px; /* overall spacing */
+  margin-left: -44px;
 }
 
 .noble {
@@ -754,7 +774,8 @@
   }
 
   .big-line {
-    width: 60px;
+    width: 90px;
+
   }
 }
 
@@ -762,6 +783,7 @@
 @media (max-width: 768px) {
   .noble {
     font-size: 24px;
+    margin-top: 7px;
   }
 
   .confidence {
@@ -770,7 +792,7 @@
   }
 
   .big-line {
-    width: 224px;
+    width: 324px;
     margin-left: 57px;
   }
 }
@@ -782,7 +804,7 @@
   display: flex;
   justify-content: center; /* center all boxes horizontally */
   gap: 30px;               /* space between boxes */
-  margin-top: 25px;
+  margin-top: -95px;
   flex-wrap: wrap;         /* allow wrapping on smaller screens */
 
 }
@@ -814,22 +836,111 @@
     align-items: center; /* center boxes in column */
     gap: 20px;
   }
+
   }
   .centered {
     width: 90%; /* make boxes nearly full width on mobile */
+
   }
 
-
-
    .connectss {
-    margin-left: 1px;
-   }
-   .servi{
+    margin-left: 35px;
     margin-top: 17px;
-    margin-left: -188px;
-   }
-   .and{
-    margin-top: 12px;
+    font-size: 2rem;
+    font-style: italic;
    }
 
 
+
+
+
+   .nobled {
+  margin-top: -19px;
+  padding: clamp(20px, 5vw, 40px);
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div {
+  font-size: clamp(22px, 4vw, 32px);
+}
+
+.servi {
+  font-size: clamp(14px, 2.5vw, 20px);
+  margin-top: 16px;
+}
+
+.claritys {
+  font-size: clamp(18px, 3.5vw, 26px);
+}
+
+.guide {
+  font-size: clamp(13px, 2.2vw, 16px);
+  max-width: 700px;
+  margin: auto;
+}
+
+.and {
+  font-size: clamp(14px, 2.5vw, 16px);
+  padding: clamp(10px, 2vw, 14px)
+           clamp(18px, 4vw, 30px);
+  width: fit-content;
+  margin-top: 15px;
+}
+@media (max-width: 600px) {
+  .and {
+    width: 100%;
+    margin-top: 18px;
+  }
+
+  .nobled {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 155px;
+    width: 633px;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .nobled {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 80px;
+    width: 1222px;
+  }
+
+  .guide {
+    max-width: 600px;
+  }
+
+  .and {
+    margin-top: 20px;
+    margin-right: 64px;
+    width: auto;
+    height: auto;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1300px) {
+  .nobled {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 80px;
+    width: 1222px;
+  }
+
+  .guide {
+    max-width: 600px;
+  }
+
+  .and {
+    margin-top: 20px;
+    margin-right: 64px;
+    width: auto;
+    height: auto;
+  }
+}
