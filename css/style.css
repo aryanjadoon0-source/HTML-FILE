@@ -594,23 +594,26 @@ body {
  .noble{
    font-size: 3.8rem;
    margin-top: 88px;
-   margin-left: 77px;
+   margin-left: -7px;
    color: rgb(6, 150, 6);
  }
 
-  .smart{
+.smart {
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
-    letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
+  max-width: 1200px;     /* zoom par control */
+  margin: auto;
+  padding: 60px 20px;
 }
+
 
 
  .confidence {
   display: flex;
   justify-content: flex-end; /* right align */
-  margin-right: 40px;        /* thoda left shift from right edge */
+  margin-right: -52px;        /* thoda left shift from right edge */
   gap: 10px;                 /* agar multiple elements ho to space */
-  margin-top: -139px;
+  margin-top: -129px;
   font-size: 1.4rem;
   color: rgb(5, 122, 5);
 }
@@ -622,24 +625,38 @@ body {
   margin-top: 149px;
 }
 
-  .folder{
-   margin-top: 22px;
-   margin-left: 66px;
-  }
+.folder {
+  max-width: 800px;        /* zoom safe */
+  margin: auto;            /* pure center */
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
    .folder{
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
     letter-spacing: 0.01em;
 }
+.logo {
+  display: block;
+  margin-left: 19px;
+  margin-right: auto;   /* image left */
+  max-width: 120px;
+}
+
 
    .lancer{
       font-size: 2rem;
       color: darkgreen;
       margin-top: 33px;
+      text-align: left;
+      margin-left: 14px;
    }
    
    .simple{
       margin-top: 25px;
+      text-align: left;
+      margin-left: 14px;
       color: darkgreen;
    }
 
@@ -662,10 +679,13 @@ body {
 }
 
 
-  .folders{
-   margin-top: 22px;
-   margin-left: 66px;
-  }
+.folders {
+  max-width: 800px;        /* zoom safe */
+  margin: auto;            /* pure center */
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
    .folders{
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
@@ -677,25 +697,33 @@ body {
       color: darkgreen;
       margin-top: 33px;
    }
-   
+   .logos {
+  display: block;
+  margin-left: 19px;
+  margin-right: auto;
+  max-width: 120px;
+}
    .simples{
       margin-top: 25px;
+      margin-left: 14px;
+      text-align: left;
       color: darkgreen;
    }
 
    .stayss{
       margin-top: 33px;
+      
       color: darkgreen;
       font-size: 1.1rem;
    }
 
 
    .big-liness {
-  width: 100%;               /* line ka length, parent ke respect me */
-  max-width: 950px;        /* optional: max width limit */
-  height: 1px;              /* line ki motai */
-  background-color:green;  /* line ka color */
-  margin: 30px auto;        /* upar/neeche spacing + center align */
+  width: 100%;               
+  max-width: 950px;        
+  height: 1px;              
+  background-color:green; 
+  margin: 30px auto;        
   display: block;
   margin-top: 59px;
   margin-left: -22px;
@@ -704,24 +732,37 @@ body {
 
 
 
-  .folderss{
-   margin-top: 22px;
-   margin-left: 66px;
-  }
+.folderss {
+  max-width: 800px;       
+  margin: auto;            
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
    .folderss{
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
     letter-spacing: 0.01em;
 }
+.logoss {
+  display: block;
+  margin-left: 19px;
+  margin-right: auto;  
+  max-width: 120px;
+}
 
-   .lancerss{
+   .lancers{
       font-size: 2rem;
       color: darkgreen;
       margin-top: 33px;
+      text-align: left;
+      margin-left: 14px;
+
    }
    
    .simpless{
       margin-top: 25px;
+      text-align: left;
       color: darkgreen;
    }
 
@@ -736,29 +777,30 @@ body {
 
 
    .big-linesss {
-  width: 100%;               /* line ka length, parent ke respect me */
-  max-width: 950px;        /* optional: max width limit */
-  height: 1px;              /* line ki motai */
-  background-color: green;  /* line ka color */
-  margin: 30px auto;        /* upar/neeche spacing + center align */
+  width: 100%;               
+  max-width: 950px;      
+  height: 1px;             
+  background-color: green; 
+  margin: 30px auto;        
   display: block;
   margin-top: 59px;
   margin-left: -22px;
 }
 
-.centered{
+
+
+.centered {
   background-color: rgb(19, 46, 19);
   max-width: 628px;
   width: 100%;
-  padding: 30px 0;
-  padding-bottom: 99px;
+  padding: 30px 0 99px;
   height: auto;
   box-sizing: border-box;
   border-radius: 22px;
-  margin: 134px 443px auto;   /* 🔴 center + top space */
-  
-  
+
+  margin: 134px auto 0;   
 }
+
 
 
  .custum{
@@ -804,8 +846,8 @@ body {
 
 .imad{
   display: flex;
-  justify-content: center;  /* horizontal center */
-  align-items: center;      /* vertical center */
+  justify-content: center;  
+  align-items: center;     
 }
 
  .imad img{
@@ -815,12 +857,19 @@ body {
 
 
 
-.connectsss{
-   background-color: whitesmoke;
-   padding-top: 7px;
-   padding-bottom: 188px;
-   margin-top: 77px;
+.connectsss {
+  background-color: whitesmoke;
+
+  max-width: 1200px;     
+  width: 100%;
+
+  padding-top: 7px;
+  padding-bottom: 188px;
+
+  margin: 77px auto 0;   
+  box-sizing: border-box;
 }
+
 
  .connectss{
   font-family: 'Poppins', sans-serif;
@@ -862,12 +911,19 @@ body {
 
 
 
-  .nobled{
-   background-color: rgb(16, 50, 16);
-   padding-top: 2px;
-   height: auto;
-   padding-bottom: 203px;
-  }
+.nobled {
+  background-color: rgb(16, 50, 16);
+
+  max-width: 1200px;   
+  width: 100%;
+
+  padding-top: 2px;
+  padding-bottom: 203px;
+
+  margin: 0 auto;    
+  box-sizing: border-box;
+}
+
 
  .div {
    font-size: 1.7rem;
@@ -920,11 +976,12 @@ body {
  .claritys{
    color: white;
    margin-top: 218px;
-   
+   margin-left: 17px;
  }
 
  .guide{
    color: rgb(241, 234, 234);
+   margin-left: 17px;
  }
 
   .all{

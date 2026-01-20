@@ -761,11 +761,13 @@
   margin: 30px auto 0 auto; /* centered below text */
 }
 
+
+
 /* Tablet */
 @media (max-width: 1324px) {
   .noble {
     font-size: 30px;
-  }
+      }
 
   .confidence {
     font-size: 16px;
