@@ -39,12 +39,13 @@
 /* Mobile / small screen adjustments */
 @media (max-width: 768px) {
   .globe {
-    width: 310px;  /* image chhota */
-    top: -30px;   /* image upar move */
+    width: 310px;  
+    top: -30px;   
   }
    .finance{
    font-size: 0.7rem;
    margin-left: -14px;
+   font-weight: 600;
  }
  .service{
   font-size: 0.8rem;

@@ -45,11 +45,8 @@ body {
   width: 358px;
   display: block;
   margin-left: auto;
-  margin-right: 40px;   /* value kam/zyada kar sakte ho */
+  margin-right: 40px;   
 }
-
-
-
 
 .book{
     background-color: darkgreen;
@@ -58,7 +55,7 @@ body {
     border: 1px solid aquamarine;
     color: white;
     border-radius: 35px;
-      transform: translateX(-20px); /* -10px left, +10px right */
+      transform: translateX(-20px); 
 }
 
 .book:hover{
@@ -68,19 +65,17 @@ body {
  .finance{
     color: darkgreen;
     font-size: 1.2rem;
-      transform: translateX( 23px); /* -10px left, +10px right */
+      transform: translateX( 23px); 
       
  }
 .service {
   color: darkgreen;
-  transform: translateX(-20px); /* -10px left, +10px right */
+  transform: translateX(-20px); 
 
 }
 .service:hover{
     cursor: pointer;;
 }
-
-
 
  .success{
   font-family: 'Poppins', sans-serif;
@@ -128,11 +123,11 @@ body {
   /* success */
 
 .success {
-  text-align: center;        /* text ko horizontally center karta hai */
-  display: flex;             /* flex use kar rahe hain */
-  flex-direction: column;    /* items vertically stack hon */
-  align-items: center;       /* items horizontally center */
-  justify-content: center;   /* vertically center agar height fix ho */
+  text-align: center;   
+  display: flex;             
+  flex-direction: column;   
+  align-items: center;       
+  justify-content: center;   
   margin-top: 36px;
   background-color: white;
   padding-bottom: 99px;
@@ -165,10 +160,10 @@ body {
 
    /* tax */
  .tax {
-  text-align: right;        /* text ko horizontally center karta hai */
-  display: flex;             /* flex use kar rahe hain */
-  flex-direction: column;    /* items vertically stack hon */
-  justify-content: right;   /* vertically center agar height fix ho */
+  text-align: right;        
+  display: flex;            
+  flex-direction: column;    
+  justify-content: right;   
   margin-top: 66px;
   background-color: rgb(182, 244, 223);
   max-width: 4673px;
@@ -320,7 +315,7 @@ body {
   width: 518px;
   display: block;
   margin-left: auto;
-  margin-right: 110px;   /* value kam/zyada kar sakte ho */
+  margin-right: 110px;  
 }
  .taxee{
   font-family: 'Poppins', sans-serif;
@@ -329,11 +324,10 @@ body {
 }
     
  .taxo {
-        text-align: right;        /* text ko horizontally center karta hai */
-  display: flex;             /* flex use kar rahe hain */
-  flex-direction: column;    /* items vertically stack hon */
-       /* items horizontally center */
-  justify-content: right;   /* vertically center agar height fix ho */
+        text-align: right;        
+  display: flex;            
+  flex-direction: column;   
+  justify-content: right;   
   margin-top: 66px;
   background-color: rgb(197, 245, 229);
   max-width: 4673px;
@@ -416,11 +410,11 @@ body {
 
     /* happy */
  .kk{
-  text-align: center;        /* text ko horizontally center karta hai */
-  display: flex;             /* flex use kar rahe hain */
-  flex-direction: column;    /* items vertically stack hon */
-  align-items: center;       /* items horizontally center */
-  justify-content: center;   /* vertically center agar height fix ho */
+  text-align: center;        
+  display: flex;            
+  flex-direction: column;    
+  align-items: center;       
+  justify-content: center;   
   margin-top: 66px;
   background-color: white;
  padding-bottom: 99px;
@@ -515,7 +509,7 @@ body {
 
 
 .wrapper {
-  margin-top: 50px; /* wrapper spacing */
+  margin-top: 50px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -526,19 +520,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* spacing between line and text */
+  gap: 10px; 
 }
 
 /* horizontal line */
 .lines {
-  width: 200px;           /* line ka length */
-  height: 1px;            /* line thickness */
+  width: 200px;           
+  height: 1px;            
   background-color: rgb(25, 24, 24);
   margin-left: -568px;
   margin-top: -172px;
 }
 
-/* text row */
+
 .text {
   display: flex;
   flex-direction: column;
@@ -546,7 +540,7 @@ body {
   gap: 10px;
 }
 
-/* text elements */
+
 .graphics {
   font-size: 1.7rem;
   margin-top: 397px;
@@ -578,13 +572,13 @@ body {
 .image {
   width: 100%;
   max-width: 2300px;
-  margin: 157px auto 0 auto; /* top margin + center horizontally */
+  margin: 157px auto 0 auto; 
   display: block;
 }
 
 
 .type {
-  width: 100%;       /* parent ke respect me stretch */
+  width: 100%;       
   height: auto;
 }
 
@@ -601,7 +595,7 @@ body {
 .smart {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.01em;
-  max-width: 1200px;     /* zoom par control */
+  max-width: 1200px;  
   margin: auto;
   padding: 60px 20px;
 }
@@ -610,24 +604,24 @@ body {
 
  .confidence {
   display: flex;
-  justify-content: flex-end; /* right align */
-  margin-right: -52px;        /* thoda left shift from right edge */
-  gap: 10px;                 /* agar multiple elements ho to space */
+  justify-content: flex-end;
+  margin-right: -52px;        
+  gap: 10px;                
   margin-top: -129px;
   font-size: 1.4rem;
   color: rgb(5, 122, 5);
 }
 .big-line {
-  width: 100%;               /* line ka length, parent ke respect me */
-  height: 1px;              /* line ki motai */
-  background-color: green;  /* line ka color */
+  width: 100%;               
+  height: 1px;              
+  background-color: green;  
   display: block;
   margin-top: 149px;
 }
 
 .folder {
-  max-width: 800px;        /* zoom safe */
-  margin: auto;            /* pure center */
+  max-width: 800px;        
+  margin: auto;
   padding: 40px 20px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -640,7 +634,7 @@ body {
 .logo {
   display: block;
   margin-left: 19px;
-  margin-right: auto;   /* image left */
+  margin-right: auto;   
   max-width: 120px;
 }
 
@@ -668,11 +662,11 @@ body {
 
 
    .big-lines {
-  width: 100%;               /* line ka length, parent ke respect me */
-  max-width: 950px;        /* optional: max width limit */
-  height: 1px;              /* line ki motai */
-  background-color: green;  /* line ka color */
-  margin: 30px auto;        /* upar/neeche spacing + center align */
+  width: 100%;               
+  max-width: 950px;        
+  height: 1px;             
+  background-color: green;  
+  margin: 30px auto;        
   display: block;
   margin-top: 59px;
   margin-left: -22px;
@@ -680,8 +674,8 @@ body {
 
 
 .folders {
-  max-width: 800px;        /* zoom safe */
-  margin: auto;            /* pure center */
+  max-width: 800px;        
+  margin: auto;            
   padding: 40px 20px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -895,7 +889,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin: 77px auto 0; /* top | left-right | bottom */
+  margin: 77px auto 0; 
 }
 
 .expert:hover{
@@ -1004,3 +998,7 @@ body {
  .guide{
 margin-bottom: -89px;
  }
+
+
+
+
